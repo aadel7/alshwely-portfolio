@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Shopping Cart UI</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,900" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="column">
+        <div class="row">
+            <div class="wrapper">
+
+                <h2 style="text-align: center">Products</h2>
+
+                <form action="http://localhost:8080/fakeAmazon/AddToCart" method="POST">
+
+                    <div class="Cart-Items">
+
+                        <div class="column">
+
+                            <div class="one">
+
+                                <input type="Checkbox" name="item_grapes" value="grapes">
+                                <div class="image-box">
+                                    <img src="images/grapes.png" height="120px" }} />
+                                </div>
+
+                                <div class="about">
+                                    <h3>Zumo 1</h3>
+                                    <h3 class="subtitle">250ml</h3>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="column">
+
+                            <div class="two">
+
+                                <input type="Checkbox" name="item_apple" value="apple">
+                                <div class="image-box">
+                                    <img src="images/apple.png" height="120px" }} />
+                                </div>
+
+                                <div class="about">
+                                    <h3>Zumo 2</h3>
+                                    <h3 class="subtitle">250ml</h3>
+                                </div>
+
+
+
+                            </div>
+
+                        </div>
+
+                        <div class="column">
+
+                            <div class="three">
+                                <input type="Checkbox" name="item_apple2" value="apple2">
+                                <div class="image-box">
+                                    <img src="images/apple.png" height="120px" }} />
+                                </div>
+                                <div class="about">
+                                    <h3>Zumo 3</h3>
+                                    <h3 class="subtitle">500ml</h3>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="column">
+
+                            <br> <input type="Submit" name="Cart1_submit" value="Añadir a la cesta">
+
+                        </div>
+
+                    </div>
+                </form>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="column">
+                <div class="wrapper">
+                    <div class="one">
+
+                        <form action="http://localhost:8080/fakeAmazon/Cart" method="GET">
+                            <input type="Submit" name="Cart_submit" value="Ver cesta">
+                        </form>
+
+                    </div>
+
+                    <div class="two">
+                        <form action="http://localhost:8080/fakeAmazon/UserSettings" method="POST">
+                            <input type="Submit" name="Preferences" value="Preferencias de usuario">
+                        </form>
+
+                    </div>
+                    <div class="three">
+                        <form action="http://localhost:8080/fakeAmazon/HTTPSession" method="GET">
+                            Pulse <input type="Submit" name="sesiones" value="aquí">
+                            para incrementar accesos en la url
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
