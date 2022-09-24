@@ -142,7 +142,7 @@ export const About = () => (
             <br />
             <br />
             <h4>
-              Europe-based <keyword>SAP Software Engineer</keyword>. <br />
+              Toronto-based <keyword>SAP Software Engineer</keyword>. <br />
               Enjoying world wide web since 2000.<br />
               Focused on innovation, quality and user experience.
             </h4>
