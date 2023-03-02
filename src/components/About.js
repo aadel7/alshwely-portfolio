@@ -4,7 +4,6 @@ import Button from 'react-bootstrap/Button';
 import Scrollchor from 'react-scrollchor';
 import ArrowScroll from './ArrowScroll.js';
 import { CardColumns, Card } from 'react-bootstrap';
-import { Container, Row, Col } from "react-bootstrap";
 
 const Styles = styled.div`
 
