@@ -3,7 +3,7 @@ import Papa from 'papaparse';
 import { useTable } from 'react-table';
 import '../css/Spreadsheet.css';
 
-function SpreadsheetApp() {
+function Spreadsheet() {
   const [data, setData] = useState([]);
   const [totals, setTotals] = useState({});
 
@@ -47,7 +47,7 @@ function SpreadsheetApp() {
   });
 
   return (
-    <div className="SpreadsheetApp">
+    <div className="Spreadsheet">
       <h1>Spreadsheet App</h1>
       <div className="UploadSection">
         <h2>Upload Spreadsheet</h2>
