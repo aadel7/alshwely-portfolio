@@ -238,7 +238,7 @@ function App(props) {
             <Route path="/bio" component={Bio} />
             <Route path="/skills" component={Skills} />
             <Route path="/" component={Home} />
-            <Route path="/" component={Spreadsheet} />
+            <Route path="/spreadsheet" component={Spreadsheet} />
             <Route component={NoMatch} />
           </Switch>
         </div>
