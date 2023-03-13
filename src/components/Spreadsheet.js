@@ -95,4 +95,4 @@ function SpreadsheetApp() {
   );
 }
 
-export default SpreadsheetApp;
+export default Spreadsheet;

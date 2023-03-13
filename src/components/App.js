@@ -11,6 +11,7 @@ import NoMatch from './NoMatch.js';
 import Bio from './Bio.js';
 import Skills from './Skills.js';
 import NavigationBar from './NavigationBar.js';
+import Spreadsheet from './Spreadsheet.js';
 
 import GoogleFontLoader from 'react-google-font-loader';
 import styled from 'styled-components';
@@ -237,6 +238,7 @@ function App(props) {
             <Route path="/bio" component={Bio} />
             <Route path="/skills" component={Skills} />
             <Route path="/" component={Home} />
+            <Route path="/" component={Spreadsheet} />
             <Route component={NoMatch} />
           </Switch>
         </div>
