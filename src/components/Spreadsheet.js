@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Papa from 'papaparse';
 import { useTable } from 'react-table';
-import 'my-app\src\components\Spreadsheet.js';
+import '../css/Spreadsheet.css';
 
 function SpreadsheetApp() {
   const [data, setData] = useState([]);
